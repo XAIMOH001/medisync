@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    
+</head>
+<body>
+
+<h1 class="text-danger text-center">About us</h1>
+
+<a href="{% url 'home' %}" class="btn btn-primary">Home</a>
+<a href="{% url 'contact' %}" class="btn btn-outline-warning">contact</a>
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos dolore magnam quod, ratione ullam velit! Earum id odit officia quibusdam sunt? Beatae, consequuntur dolore minus quo soluta veritatis voluptas.</span><span>Aliquid error mollitia, neque officia pariatur perferendis repellendus sint. A architecto aspernatur beatae deleniti doloribus earum fugit labore laborum nemo numquam, quae quibusdam recusandae totam velit veniam veritatis voluptas voluptates.</span><span>Cupiditate dignissimos doloremque dolores earum, eligendi error fugiat id incidunt nam nesciunt nobis provident quibusdam repellendus? A ad dicta dignissimos eaque excepturi explicabo iure perferendis, quas quidem quo repellat reprehenderit.</span></p>
+
+<h2>Additional information</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, inventore, sapiente. Culpa doloribus esse in libero minus nesciunt officiis quisquam temporibus? A alias beatae ex harum temporibus, vel velit veniam!</span><span>Ab, accusamus accusantium aut commodi corporis dolores ducimus esse facilis impedit ipsum iure laboriosam maiores maxime molestiae neque optio praesentium provident, ratione repellat sint sunt suscipit vel? Nulla, placeat, quas!</span><span>Adipisci, atque delectus dolor eum fugit hic placeat praesentium quidem rem ullam! Alias, at atque dolorum eligendi illo, itaque iure minus nostrum officiis omnis provident, recusandae reprehenderit tenetur totam voluptatem.</span></p>
+
+
+</body>
+</html>

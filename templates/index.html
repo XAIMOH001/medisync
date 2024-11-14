@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+</head>
+<body>
+
+<h1>Medisync</h1>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'contact' %}">contact</a>
+
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aperiam at autem consequuntur dolore doloribus error eum expedita hic iure nobis, numquam ratione suscipit unde ut voluptates voluptatibus. Recusandae, vel.</span><span>Cupiditate debitis deleniti doloribus, est harum illum ipsam modi molestias nobis quam quia quibusdam similique sit tempora ut! Dolorum est quisquam velit voluptas. Aperiam dignissimos ex nisi porro rerum sequi!</span></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim error et inventore ipsa libero obcaecati quod ratione sunt! Dolore doloribus ducimus molestias praesentium qui. Harum nesciunt nostrum optio praesentium vel.</span><span>Amet deserunt distinctio hic ipsa, minima obcaecati quia repudiandae sit sunt. Atque harum molestias porro praesentium quia voluptatibus. Accusantium cupiditate hic laborum modi odit sequi voluptatem. Laborum sequi tempora ullam.</span><span>Aliquid amet at dolores eaque error explicabo harum ipsa iusto libero, magnam minus officiis quo tempore unde veniam. Asperiores assumenda delectus exercitationem iste pariatur quia repudiandae similique totam ullam unde.</span></p>
+
+<img src="{% static 'assets/ward.jpeg' %}" alt="">
+<img src="{% static 'assets/fre.jpeg' %}" alt="">
+<img src="{% static 'assets/pex2.jpeg' %}" alt="">
+<img src="{% static 'assets/pex6.jpeg' %}" alt="">
+<img src="{% static 'assets/pix4.jpg' %}" alt="">
+<img src="{% static 'assets/pexe.jpeg' %}" alt="">
+
+</body>
+</html>
